@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>配車表ビューア</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #f0f2f5;
+    }
+    header {
+      background-color: #2a3f54;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    iframe {
+      width: 100%;
+      height: calc(100vh - 60px);
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header>📋 配車表（閲覧専用）</header>
+  <iframe src="https://onedrive.live.com/embed?resid=23DB0970311D3EDA%21481&authkey=%21AJgh9fIQkJ4zqeU&em=2" allowfullscreen></iframe>
+</body>
+</html>
